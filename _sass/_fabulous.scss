@@ -1,0 +1,119 @@
+// Fabulous Software brand colors (extracted from logo)
+$brand-purple: #9b4f96;
+$brand-magenta: #d946a3;
+$brand-text: #4a4a4a;
+$brand-light: #f8f9fa;
+$brand-dark: #2d3748;
+
+// Brand gradient
+@mixin brand-gradient {
+  background: linear-gradient(135deg, $brand-purple 0%, $brand-magenta 100%);
+}
+
+// Custom styles for Fabulous Software
+.site-header {
+  border-bottom: 2px solid $brand-magenta;
+  
+  .site-title {
+    @include brand-gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .site-nav .page-link {
+    color: $brand-purple;
+    
+    &:hover {
+      color: $brand-magenta;
+    }
+  }
+}
+
+// Homepage hero section
+.hero-section {
+  padding: 3rem 0;
+  background: linear-gradient(135deg, rgba($brand-purple, 0.05) 0%, rgba($brand-magenta, 0.05) 100%);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  
+  h1 {
+    @include brand-gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1rem;
+  }
+}
+
+// Blog post styling
+.blog-post-preview {
+  padding: 1.5rem 0;
+  
+  h2 a {
+    color: $brand-purple;
+    text-decoration: none;
+    
+    &:hover {
+      color: $brand-magenta;
+      text-decoration: underline;
+    }
+  }
+  
+  .post-meta {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+// Custom button styles
+.btn-fabulous {
+  @include brand-gradient;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  transition: transform 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba($brand-purple, 0.3);
+    color: white;
+    text-decoration: none;
+  }
+}
+
+// Footer styling
+.site-footer {
+  background-color: $brand-dark;
+  color: $brand-light;
+  
+  .footer-heading {
+    color: $brand-magenta;
+  }
+  
+  a {
+    color: $brand-light;
+    
+    &:hover {
+      color: $brand-magenta;
+    }
+  }
+}
+
+// Responsive adjustments
+@media screen and (max-width: 600px) {
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+  
+  .site-header .site-title {
+    font-size: 1.2rem;
+  }
+}

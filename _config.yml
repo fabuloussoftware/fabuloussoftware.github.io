@@ -1,0 +1,51 @@
+# Site settings
+title: Fabulous Software
+email: contact@fabuloussoftware.com
+description: >-
+  Professional software development services by James Ehly.
+  Solo contract programming with expertise in modern web technologies.
+
+baseurl: ""
+url: "https://jamesehly.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Blog settings
+permalink: /blog/:year/:month/:day/:title/
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Author info
+author:
+  name: James Ehly
+  email: contact@fabuloussoftware.com
+
+# Navigation
+header_pages:
+  - index.md
+  - blog.md
