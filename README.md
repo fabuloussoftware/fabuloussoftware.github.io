@@ -76,4 +76,4 @@ Your content here...
 
 ## Contact
 
-For questions about this website setup, contact James Ehly at contact@fabuloussoftware.com
+For questions about this website setup, contact James Ehly at contact@fabsoft.io

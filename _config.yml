@@ -1,12 +1,12 @@
 # Site settings
 title: Fabulous Software
-email: contact@fabuloussoftware.com
+email: contact@fabsoft.io
 description: >-
   Professional software development services by James Ehly.
   Solo contract programming with expertise in modern web technologies.
 
 baseurl: ""
-url: "https://jamesehly.github.io"
+url: "https://fabsoft.io"
 
 # Build settings
 markdown: kramdown
@@ -43,7 +43,7 @@ collections:
 # Author info
 author:
   name: James Ehly
-  email: contact@fabuloussoftware.com
+  email: contact@fabsoft.io
 
 # Navigation
 header_pages:

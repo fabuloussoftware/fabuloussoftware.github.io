@@ -33,7 +33,7 @@ I'm excited to launch the new Fabulous Software website and blog. This platform 
 
 This blog is meant to be a conversation starter. If you have questions about any of the topics I cover, suggestions for future posts, or just want to connect, please don't hesitate to reach out.
 
-You can find me on [GitHub](https://github.com/jamesehly) or send me an email at [contact@fabuloussoftware.com](mailto:contact@fabuloussoftware.com).
+You can find me on [GitHub](https://github.com/jamesehly) or send me an email at [contact@fabsoft.io](mailto:contact@fabsoft.io).
 
 Thanks for visiting, and I look forward to sharing this journey with you!
 

@@ -25,7 +25,7 @@ I'm **James Ehly**, a solo contract programmer specializing in modern web techno
 
 Ready to discuss your next project? I'd love to hear about your ideas and how I can help bring them to reality.
 
-**Email**: [contact@fabuloussoftware.com](mailto:contact@fabuloussoftware.com)  
+**Email**: [contact@fabsoft.io](mailto:contact@fabsoft.io)  
 **GitHub**: [github.com/jamesehly](https://github.com/jamesehly)
 
 ---
