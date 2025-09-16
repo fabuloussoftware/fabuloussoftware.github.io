@@ -1,29 +1,6 @@
 # Fabulous Software Website
 
-This is the Jekyll-based website for Fabulous Software, Inc., a solo contract programming business by James Ehly.
-
-## Setup Instructions
-
-### For GitHub Pages Deployment
-
-1. **Create a new repository** on your GitHub account named `jamesehly.github.io` (or `<username>.github.io`)
-
-2. **Push this code** to the repository:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Jekyll site for Fabulous Software"
-   git branch -M main
-   git remote add origin https://github.com/jamesehly/jamesehly.github.io.git
-   git push -u origin main
-   ```
-
-3. **Enable GitHub Pages**:
-   - Go to repository Settings → Pages
-   - Under "Source", select "GitHub Actions"
-   - The site will automatically build and deploy when you push changes
-
-4. **Access your site** at: `https://jamesehly.github.io`
+This is the Jekyll-based website for Fabulous Software, Inc.
 
 ### For Local Development
 
@@ -73,7 +50,3 @@ Your content here...
 - Brand colors are defined in `_sass/_fabulous.scss`
 - Site settings in `_config.yml`
 - Navigation links can be modified in `_config.yml` under `header_pages`
-
-## Contact
-
-For questions about this website setup, contact James Ehly at contact@fabsoft.io
